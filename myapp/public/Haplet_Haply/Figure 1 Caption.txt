@@ -1,1 +1,0 @@
-Fig. 1. The Haplet board is a small form factor open-source board built based on the popular Arduino Due architecture. It is equipped with additional features to allow it to easily be incorporated into haptic research.

@@ -1,1 +1,0 @@
-Table 2. Hypotheses and p-values of t-tests for prostate models.

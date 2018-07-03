@@ -1,1 +1,0 @@
-Figure 1: The 6-DOF dissipative haptic device.

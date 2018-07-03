@@ -1,1 +1,0 @@
-Fig. 12. Tracking error comparison for each stiffness condition between the healthy user and the patient.

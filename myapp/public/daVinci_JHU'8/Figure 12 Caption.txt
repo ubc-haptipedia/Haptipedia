@@ -1,1 +1,0 @@
-Figure 12. Force-deflection response for a heart model near (left) and on (right) a hard inclusion.

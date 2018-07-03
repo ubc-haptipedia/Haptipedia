@@ -1,1 +1,0 @@
-Figure 12. PDD controller with dead-band limiter

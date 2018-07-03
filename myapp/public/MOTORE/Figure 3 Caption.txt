@@ -1,1 +1,0 @@
-Fig. 3. User interaction with the MOTORE system. The device moves and operates on a transportable panel with given geometry and a printed pattern.

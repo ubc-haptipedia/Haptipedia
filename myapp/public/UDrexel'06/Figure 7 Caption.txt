@@ -1,1 +1,0 @@
-Figure 7: Reachable workspace of the haptic device.
