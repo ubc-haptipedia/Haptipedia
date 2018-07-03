@@ -1,0 +1,1 @@
+Figure 8. Averaged position profile for a target acquisition task using the PD controller

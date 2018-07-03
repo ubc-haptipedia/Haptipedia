@@ -1,0 +1,1 @@
+Fig. 4. The above graphs depict the resulting duration data from the linear steering test for the varying Indices of Difficulty (ID). A linear model is fit to the data where the inverse of the corresponding slope yields the Index of Performance (IP). The associated IP for each task is shown in Fig. 5

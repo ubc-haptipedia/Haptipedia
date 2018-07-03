@@ -1,0 +1,1 @@
+Figure 4. (a) Continuous stall torques of actuators represented in actuator torque space. (b) Maximum desired endpoint loads represented in endpoint force/torque space.

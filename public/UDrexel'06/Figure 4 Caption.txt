@@ -1,0 +1,1 @@
+Figure 4: Coordinate frames for the user interface and spatial force feedback mechanism.

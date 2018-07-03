@@ -1,0 +1,1 @@
+Fig. 6. Different device end-effectors were mounted for the two experiments. In the performance evaluation testbed a small passive revolute handle was mounted at the operation point (seen on the right). The texture-rating and discrimination experiments used a Planar Haptuator (Tactile Labs) (seen on the left) at the operation point for vibrotactile-feedback generation.

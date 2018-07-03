@@ -1,0 +1,1 @@
+Figure 1(b) shows a system for interactions with virtual environments using the suggested VWM. The user standing on VWM, and wearing a Head Mount Display (HMD) can walk and interact with the virtual environment.

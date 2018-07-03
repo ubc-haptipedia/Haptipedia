@@ -1,0 +1,1 @@
+Figure 9. A user palpates the heart model using a da Vinci instrument. The model is fixed to the table, so it does not move during haptic exploration.

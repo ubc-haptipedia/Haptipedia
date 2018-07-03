@@ -1,0 +1,1 @@
+Figure 4: Bode plot of experimental data and fitted transfer function for Friction Drive Paddle

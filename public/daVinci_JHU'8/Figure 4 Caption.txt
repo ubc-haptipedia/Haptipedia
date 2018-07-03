@@ -1,0 +1,1 @@
+Figure 4. Force-displacement curves of the teleoperator during probing of a soft object with and without friction compensation.

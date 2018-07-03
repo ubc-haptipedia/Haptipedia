@@ -1,0 +1,1 @@
+Fig. 4. Kinematic diagram of the system depicting the three wheels, the absolute position tracking device, and the reference systems.

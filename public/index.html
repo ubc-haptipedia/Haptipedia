@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title> Haptipedia Prototype </title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
+
+	<!--link rel="stylesheet" href="style.css"-->
+	
+	
+	
+	
+
+	
+	<style type="text/css">
+		body{
+			margin: 0;
+			font-family: arial, sans;
+			color: #212121;
+		}
+
+		
+
+		.label{
+			font-size: 15px;
+			font-weight: 600;
+		}
+
+		.legend text,
+		.axis text {
+			font-size: 13px;
+			fill: #333;
+		}
+
+		.axis path,
+		.axis line{
+			fill: none;
+			stroke-width: 1px;
+			stroke: #777;
+		}
+
+
+		.legend rect{
+			fill-opacity: 0.75;
+		}
+
+		.legeng:hover rect{
+			fill-opacity:1;
+		}
+		.y.axis g.tick text{
+			
+			font-size: 10px;
+		
+		}
+
+		div.hoverBox {
+		
+			position: absolute;
+			z-index: 10;
+			background-color: #d6d6d6;
+			font-size: 12px;
+			
+			
+			border-width: 2px;
+			border-color: black;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    	transition: 0.3s;
+
+		}
+
+    .portability-def, .robustness-def, .fabricability-def, .obtainability-def, .repairability-def{
+      position: absolute;
+      z-index: 10;
+      background-color: #ffffff;
+      font-size: 12px;
+      border-width: 2px;
+      border-color: black;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      padding: 1% 1% 0% 0%;
+
+    }
+
+		.device-list-item {
+			padding: 4px 8px 4px 4px;
+			margin: 8px 8px 8px 8px;
+
+		}
+
+		.padding-0{
+		    padding-right:0;
+		    padding-left:0;
+		}
+
+		/* Custom CSS */
+
+
+		nav{
+			box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, .2);
+			margin-bottom: 1em;
+			background-color: white;
+		}
+
+		body{
+			background-color: rgba(246,246,246,0.5);
+		}
+
+		.main{
+			background-color: white;
+			box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, .1);
+		}
+
+		.filters-main{
+			background-color: white;
+			box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, .1);
+			
+		}
+
+		.FormUnit{
+			padding: 1em;
+			font-size: 14px;
+		}
+
+		.filters-heading{
+		    padding: 0.75em;
+		    
+		    font-size: 20px;
+		    font-weight: 600;
+
+		}
+
+		legend{
+			font-size: 14px;
+			font-weight: 600;
+			text-transform: uppercase;
+
+		}
+
+		label{
+			margin-right: 8px;
+		}
+
+		input{
+			font-size: 24px;
+			border-radius: 0;
+		}
+
+		hr{
+			margin: 0;
+		}
+
+		.btn{
+			background-color: #4a5c71;
+			color: white;
+		    border: none;
+		    border-radius: 0px;
+		    box-shadow: none;
+		    font-size: 0.87em;
+		    padding: 0.75em;
+		}
+
+		.btn:hover{
+			background-color: #7791a4;
+			color: #f2f2f2;
+		    
+		}
+
+		.tab-active{
+			background-color: #7791a4;
+		    border: none;
+		    border-radius: 0px;
+		    color: white;
+		    transition: none;
+		    box-shadow: none;
+		    
+		}
+
+		.viz1{
+			padding-left: 4.5%;
+		}
+
+		.viz2{
+			padding-left: 4.5%;
+		}
+
+		.viz3{
+			padding-left: 4.5%;
+		}
+
+		.viz32{
+			padding-left: 15px;
+		}
+
+		.top-viz{
+			margin-bottom: : 4%;
+		}
+
+		.bottom-viz{
+			margin-bottom: : 2%;
+		}
+
+		.hoverBox{
+			visibility: hidden;
+		}
+
+
+		.grid line {
+		  stroke: lightgrey;
+		  stroke-opacity: 0.7;
+		  shape-rendering: crispEdges;
+		}
+
+		.grid path {
+		  stroke: lightgrey;
+		  stroke-opacity: 0.7;
+		  stroke-width: 1;
+		}
+
+		.v3 path {
+		  stroke: black;
+		  stroke-opacity: 1;
+		  stroke-width: 1;
+		}
+		
+		.legend-text{
+			font-size: 14px;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.state-button{
+			font-size: 14px;
+			font-weight: 600;
+			text-transform: uppercase;
+			text-decoration: underline;
+			margin-right: 1em;
+
+		}
+
+		.navbar-heading{
+			font-family: 'Rubik', sans-serif;
+			font-weight: 1000;
+			font-size: 1.8em;
+			color: #212121;
+			left: 45%;
+			top: 30%;
+			position: absolute;
+		}
+
+		.navbar-header{
+			position: relative;
+		}
+
+		.card{
+		    min-width: 23rem;
+    		min-height: 9.0rem;
+		}
+
+		.card-body{
+			position: relative;
+		}
+
+		.card-image{
+			position: absolute;
+			width: 96px;
+		}
+    .card-image-tag{
+      
+      width: 100%;
+      height: 96px;
+    }
+
+		.card-title{
+			position: absolute;
+  		left: 34%;
+	    font-size: 14px;
+	    font-weight: 600;
+		}
+
+		.card-text{
+			position: absolute;
+    		left: 34%;
+    		top: 32%;
+		}
+
+   .carousel-inner > .carousel-item > img {
+      width:auto;
+      height:380px;
+      display: block;
+      margin:auto;
+      max-width: 70%;
+    }
+
+    .carousel{
+      margin: 0% 0% 0% 0%;
+      
+      min-height: 400px; 
+      background-color: #ffffff;
+    }
+
+    .carousel-control-next{
+      background: linear-gradient(to right, #ffffff , #d6d6d6);
+    }
+    .carousel-control-prev{
+      background: linear-gradient(to left, #ffffff, #d6d6d6);
+    }
+
+
+
+
+  /* The Modal (background) */
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+  .modal-content {
+      position: relative;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 0;
+      border: 1px solid #888;
+      width: 80%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+  }
+
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+      from {top:-300px; opacity:0} 
+      to {top:0; opacity:1}
+  }
+
+  @keyframes animatetop {
+      from {top:-300px; opacity:0}
+      to {top:0; opacity:1}
+  }
+
+  /* The Close Button */
+  .close {
+      color: #212121;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+  .modal-header {
+      padding: 16px 16px;
+      font-size: 24px;
+      color: #212121;
+      display: block;
+      background-color: white;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 255, .1);
+  }
+
+  .modal-header h2{
+    font-size: 24px;
+    font-weight: 600;
+    
+  }
+
+  .modal-body {padding: 2px 0px; background-color: #ffffff}
+
+  .modal-footer {
+      padding: 2px 16px;
+      background-color: #5cb85c;
+      color: white;
+      display: none;
+  }
+
+  .dropdown{
+    
+    overflow-y: scroll;
+    height: 150px;
+  }
+
+
+
+  
+  
+
+	</style>
+
+
+
+	
+	
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header" style="padding: 0.5em 0em 0.5em 0em">
+      <h1 class="navbar-heading">Haptipedia</h1>
+      <a class="navbar-brand"> 
+      
+        <img alt="Brand" src="./images/SPIN.png" style="width: 4%;">
+        <img alt="Brand" src="./images/HI.png" style="margin-left: 1.15%; width: 18%;">
+      </a>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+
+		
+
+
+		<div class="hoverBox">
+			<div class="card">
+			  <div class="card-body">
+			    <div class="card-image" alt="Card image cap"></div>
+			    <h5 class="card-title"></h5>
+			    <p class="card-text"></p>
+			    
+			  </div>
+			</div>
+		</div>
+
+    <div class="portability-def">
+      <ul><b>Portability</b>
+        <li>Low: requires a car</li>
+        <li>Medium: requires multiple people or a cart</li>
+        <li>High: one person can carry it</li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="robustness-def">
+      <ul><b>Robustness</b>
+        <li>Low: devices with wire mechanism</li>
+        <li>Medium: anything in between or wire mechanism</li>
+        <li>High: Commercial devices</li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="fabricability-def">
+      <ul><b>Fabricability</b>
+        <li>Low: devices requiring high precision or complex mechanism</li>
+        <li>Medium: anything in between</li>
+        <li>High: simple mechanisms that don’t require high precision or special expertise</li>
+        
+      </ul>
+      
+    </div>
+
+
+    <div class="obtainability-def">
+      <ul><b>Obtainability</b>
+        <li>Low: Not commercialized ever</li>
+        <li>Medium: Previously available but not now </li>
+        <li>High: Currently available</li>
+        
+      </ul>
+      
+    </div>
+
+
+    <div class="repairability-def">
+      <ul><b>Repairability</b>
+        <li>Low: open-the-box/break the warrantee</li>
+        <li>Medium: with speciality tools, with special expertise</li>
+        <li>High: with a hand and general simple tools</li>
+        
+      </ul>
+      
+    </div>
+
+   
+
+		
+		<!-- Container -->
+
+		<div class='row' style="margin-left: 0px">
+
+			<div class='col-lg-10 main'>
+
+			<!-- Tabs-->
+
+				<div class="row">
+					
+					
+					  <button type="button" class="btn col-sm-3" id="tab1">DEVICE METADATA</button>
+					  <button type="button" class="btn col-sm-3" id="tab2">DEVICE MECHANISM</button>
+					  <button type="button" class="btn col-sm-3" id="tab3">WORKSPACE SIZE</button>
+            <button type="button" class="btn col-sm-3" id="tab4">UX ATTRIBUTES</button>
+					  
+					 
+					
+					
+				</div>
+				<br>
+
+			<!-- End of Tabs -->
+
+			<!-- Legends -->
+			<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-4 legend-dof"><text class="legend-text">Degrees of Freedom </text></div>
+					<div class="col-sm-4 legend-pt"><text class="legend-text">Product Type </text></div>
+					<div class="col-sm-2" style="text-align: right;"> <a href="#" id="undo" class="state-button">UNDO</a><a href="#" id="reset" class="state-button">RESET</a></div>
+					<!--div class="col-sm-1" style="text-align: right;"> <a href="#" id="reset" class="state-button">RELOAD</a></div-->
+					<div class="col-sm-1"></div>
+			</div>
+			<!-- End of Legends -->
+
+			<!-- Visualization -->
+
+				<section class="viz1">
+					
+					<div class="row top-viz">
+						
+						<div class="col-sm-11 viz11"></div>
+						<div class="col-sm-1"></div>
+						
+					</div>
+
+					<div class="row bottom-viz">
+						<div class="col-sm-11 viz12"></div>
+						<div class="col-sm-1"></div>
+					</div>
+				
+				</section>
+
+				<section class="viz2">
+					<div class="row top-viz">
+						
+						<div class="col-sm-11 viz21"></div>
+						<div class="col-sm-1"></div>
+						
+					</div>
+
+					<div class="row bottom-viz">
+						
+						<div class="col-sm-11 viz22"></div>
+						<div class="col-sm-1"></div>
+						
+					</div>
+				</section>
+
+				<section class="viz3">
+				<div class="row top-viz">
+					
+					<div class="viz31 col-sm-11"></div>
+					<div class="col-sm-1"></div>
+					
+				</div>
+				<div class='row viz32 bottom-viz'>
+					
+					
+						
+					<div class="viz321 col-sm-4 padding-0"></div>
+					<div class="viz322 col-sm-2 padding-0"></div>
+					<div class="viz323 col-sm-2 padding-0"></div>				
+					<div class="viz324 col-sm-1 padding-0"></div>
+					<div class="viz325 col-sm-1 padding-0"></div>
+					<div class="viz326 col-sm-1 padding-0"></div>
+
+					<div class="col-sm-1" style="border-top: 1px solid black; border-bottom: 1px solid black; border-right: 1px solid black; height: 540px"></div>
+					<div class="col-sm-1"></div>
+					
+					
+					
+				</div>
+				</section>
+
+        <section class="viz4">
+        
+        <div class='row viz41 top-viz'>
+          
+          
+            
+          <div class="viz411 col-sm-3 padding-0"></div>
+          <div class="viz412 col-sm-2 padding-0"></div>
+          <div class="viz413 col-sm-2 padding-0"></div>
+          
+          <div class="viz414 col-sm-2 padding-0"></div>
+          <div class="viz415 col-sm-2 padding-0"></div>
+
+          <div class="col-sm-1 padding-0" style="border-top: 1px solid black; border-bottom: 1px solid black; border-right: 1px solid black; height: 540px"></div>
+         
+          
+        </div>
+
+        <div class='row viz42 bottom-viz' style="margin-top: 2%">
+          
+          
+          <div class="col-sm-1"></div>  
+          <div class="viz421 col-sm-2"></div>
+          <div class="viz422 col-sm-2"></div>
+          <div class="viz423 col-sm-2"></div>  
+          <div class="viz424 col-sm-2"></div>
+          <div class="viz425 col-sm-2"></div>
+          <div class="col-sm-1"></div>
+         
+          
+        </div>
+
+        </section>
+
+			<!-- End of Visualizations -->
+		
+			</div>
+
+			<!-- Filters -->
+			<div class='col-lg-2'>
+
+				<section class="filterSection filters-main">
+
+					<h2 class="filters-heading">Filters</h2>
+					<hr/>
+					<!--Dof Filter-->
+					<div class="FormUnit js_CheckAll">
+						<fieldset>
+							<legend>DoF Filter</legend>
+							<span class="js_CheckAll-container"--><!--Space for the 'check all' input--></span>
+									<br>
+								
+									<label class="FormUnit-label" for="ID11">
+						            <input class="FormUnit-input js_CheckAll-checkbox" id="ID11" name="checkbox" type="checkbox" value=1 checked/> 1</label>
+								
+									<label class="FormUnit-label" for="ID12">
+						            <input class="FormUnit-input js_CheckAll-checkbox" id="ID12" name="checkbox" type="checkbox" value=2 checked/> 2</label>
+								
+									<label class="FormUnit-label" for="ID13">
+						            <input class="FormUnit-input js_CheckAll-checkbox" id="ID13" name="checkbox" type="checkbox" value=3 checked/> 3</label>
+									<br>
+									<label class="FormUnit-label" for="ID14">
+						            <input class="FormUnit-input js_CheckAll-checkbox" id="ID14" name="checkbox" type="checkbox" value=4 checked/> 4</label>
+								
+									<label class="FormUnit-label" for="ID15">
+						            <input class="FormUnit-input js_CheckAll-checkbox" id="ID15" name="checkbox" type="checkbox" value=6 checked/> 6</label>
+								
+									<label class="FormUnit-label" for="ID16">
+						            <input class="FormUnit-input js_CheckAll-checkbox" id="ID16" name="checkbox" type="checkbox" value=7 checked/> 7</label>
+								
+
+							
+						</fieldset>
+					</div>
+
+					<hr/>
+					<!--Product Type Filter-->
+
+					<div class="FormUnit js_CheckAll">
+						<fieldset>
+							<legend>Product Type</legend>
+							<span class="js_CheckAll-container"--><!--Space for the 'check all' input--></span>
+									<br>
+								
+									<label class="FormUnit-label" for="ID21">
+						            <input class="FormUnit-input js_CheckAll-checkbox" id="ID21" name="checkbox" type="checkbox" value='R' checked/> Research Prototype</label>
+									<br>
+									<label class="FormUnit-label" for="ID22">
+						            <input class="FormUnit-input js_CheckAll-checkbox" id="ID22" name="checkbox" type="checkbox" value='C' checked/> Commercial Product</label>
+							
+						</fieldset>
+					</div>
+
+					<hr/>
+					<!--Dof Type Filter-->
+
+					<div class="FormUnit js_CheckAll">
+						<fieldset>
+							<legend>DoF Type</legend>
+							<span class="js_CheckAll-container"--><!--Space for the 'check all' input--></span>
+							
+								<br>
+								<label class="FormUnit-label" for="ID31">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID31" name="checkbox" type="checkbox" value=1 checked/> Translational Only</label>
+								<br>
+								<label class="FormUnit-label" for="ID32">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID32" name="checkbox" type="checkbox" value=2 checked/> Rotational Only</label>
+					            <br>
+					            <label class="FormUnit-label" for="ID33">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID33" name="checkbox" type="checkbox" value=3 checked/> Translational, Rotational</label>
+					            <br>
+					            <label class="FormUnit-label" for="ID34">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID34" name="checkbox" type="checkbox" value=4 checked/> Translational, Rotational, Grasping</label>
+							
+						</fieldset>
+					</div>
+
+					<hr/>
+					<!--Mechanism Filter-->
+
+					<div class="FormUnit js_CheckAll">
+						<fieldset>
+							<legend>Mechanism</legend>
+							<span class="js_CheckAll-container"--><!--Space for the 'check all' input--></span>
+							
+								
+								<label class="FormUnit-label" for="ID41">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID41" name="checkbox" type="checkbox" value=S checked/> Serial</label>
+								<br>
+								<label class="FormUnit-label" for="ID42">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID42" name="checkbox" type="checkbox" value=P checked/> Parallel</label>
+					            
+					            <label class="FormUnit-label" for="ID43">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID43" name="checkbox" type="checkbox" value=H checked/> Hybrid</label>
+					            <br>
+					            <label class="FormUnit-label" for="ID44">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID44" name="checkbox" type="checkbox" value=W checked/> Wired</label>
+					            
+					            <label class="FormUnit-label" for="ID45">
+					            <input class="FormUnit-input js_CheckAll-checkbox" id="ID45" name="checkbox" type="checkbox" value=O checked/> Other</label>
+							
+						</fieldset>
+					</div>
+					<hr/>
+          <!--Application Domain Filter-->
+
+          <div class="FormUnit js_CheckAll">
+            <fieldset style="height: 220px;">
+              <legend>Application Domain</legend>
+              
+              <br>
+              <div class="dropdown">
+                      <span class="js_CheckAll-container"><!--Space for the 'check all' input--></span>
+              
+                      <br>
+                      <label class="FormUnit-label" for="ID51">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID51" name="checkbox" type="checkbox" value='a1' checked/> None</label>
+                      <br>
+                     <label class="FormUnit-label" for="ID52">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID52" name="checkbox" type="checkbox" value='a2' checked/> Virtual Reality</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID53">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID53" name="checkbox" type="checkbox" value='a3' checked/> Dental Training</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID54">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID54" name="checkbox" type="checkbox" value='a4' checked/> Medical Robotics</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID55">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID55" name="checkbox" type="checkbox" value='a5' checked/> Surgical Robotics</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID56">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID56" name="checkbox" type="checkbox" value='a6' checked/> Surgery</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID57">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID57" name="checkbox" type="checkbox" value='a7' checked/> Teleoperation</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID58">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID58" name="checkbox" type="checkbox" value='a8' checked/> Education</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID59">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID59" name="checkbox" type="checkbox" value='a9' checked/> Rehabilitation</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID510">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID510" name="checkbox" type="checkbox" value='b1' checked/> Research</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID511">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID511" name="checkbox" type="checkbox" value='b2' checked/> Space Robotics</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID512">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID512" name="checkbox" type="checkbox" value='b3' checked/> Music</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID513">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID513" name="checkbox" type="checkbox" value='b4' checked/> Automative Industry</label>
+                      <br>
+                      <label class="FormUnit-label" for="ID514">
+                      <input class="FormUnit-input js_CheckAll-checkbox" id="ID514" name="checkbox" type="checkbox" value='b5' checked/> Minimally Invasive Surgery</label>
+
+              </div>
+              
+            </fieldset>
+          </div>
+          <hr/>
+
+				</section>
+
+			</div>
+
+			<!-- End of Filters-->
+
+		</div>	
+   
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+          <!-- Carousel -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="">
+            <ol class="carousel-indicators">
+              
+            </ol>
+            <div class="carousel-inner" style="">
+              
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div>
+      </div>
+
+    </div>
+
+
+        
+
+        
+
+
+		
+</div>
+<!--End of Container-->
+
+
+<!--Scripts-->
+
+  
+  <script  src="https://d3js.org/d3.v4.min.js"></script>
+
+
+
+ 
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  
+  <!--link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"-->
+  
+<!--End of Scripts-->
+<!--script src="makecarousel.js"></script-->
+<script src="js/ToggleTabs.js"></script>
+<script src="js/Legends.js"></script>
+<script src="js/Viz-1.js"></script>
+<script src="js/Viz-2.js"></script>
+<script src="js/Viz-3.js"></script>
+<script src="js/Viz-4.js"></script>
+
+<script src="js/OnClick.js"></script>
+<script src="js/FilterPreview.js"></script>
+<script src="js/Filter1.js"></script>
+
+
+ 
+
+
+
+	
+</body>
+
+
+
+</html>

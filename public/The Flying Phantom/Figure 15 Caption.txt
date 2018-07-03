@@ -1,0 +1,1 @@
+Figure 15. Velocity profile of the dead-zone controller with acceleration compensation

@@ -1,0 +1,1 @@
+Figure 13. The practitioner GUI of the hand rehabilitation system. The device parameters such as stiffness, sensitivity, level of assistance can be customized for the patient and saved to disk for future sessions

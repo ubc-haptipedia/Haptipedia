@@ -1,0 +1,1 @@
+Figure 8 Test of healthy subjects on the weight shift game (Iocations1-7 on the x-axis are the target locations of the routing shown in Figure 3; the y-axis shows the time to achieve the targets)

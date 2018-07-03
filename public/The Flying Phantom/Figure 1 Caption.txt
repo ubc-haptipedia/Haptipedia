@@ -1,0 +1,1 @@
+Figure 1. A simple haptic interface as a mass-spring-damper system. K1 is implemented as a controller gain.

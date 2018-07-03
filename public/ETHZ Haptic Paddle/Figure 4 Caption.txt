@@ -1,0 +1,1 @@
+Fig. 4. Force feedback improves apparent stiffness toward the desired stiffness of a simulated spring. The plot shows the desired force, as well as the measured force for an impedance controller without and with force feedback.

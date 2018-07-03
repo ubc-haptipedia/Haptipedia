@@ -1,0 +1,1 @@
+Fig. 1. (left) ETHZ haptic paddle and (right) hardware variations. At the beginning of the lecture, all pairs have the same hardware setup, some of which were then expanded (force sensor, electrooptical encoder, tachometer) for the specialization project during the last four weeks of the semester.

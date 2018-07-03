@@ -1,0 +1,1 @@
+Fig. 4. a. Custom crank handle with strain gauge mounting at the cross line and b. Illustration of how shear and moment reactions at the end of the beam are related to the moments measured at the gauges.

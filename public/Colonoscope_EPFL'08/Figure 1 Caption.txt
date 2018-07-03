@@ -1,0 +1,1 @@
+Figure 1: The colonoscopy haptic device is highly portable and rugged. Shown with an Olympus CF-160 colonoscope inserted, and the MILXTM GastroSim framework rendering a colon model extracted from CT colonography [3]

@@ -1,0 +1,1 @@
+Figure 2. A) The sampled friction data and corresponding model fit, Kc=1, with 95% confidence bounds for the linear joint. The curve shown with gain Kc=0.704 produces passive compensation. B) After compensation friction is considerably reduced and viscosity is eliminated.

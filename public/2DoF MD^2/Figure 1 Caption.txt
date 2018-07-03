@@ -1,0 +1,1 @@
+Figure 1: Distributed macro-mini actuation approach (DM2) (a)Partition of torque into low and high frequency (parallel) components (b) Distributed actuation: Large, low-frequency actuators are located at base. Small, high-frequency actuators are located at the joints.

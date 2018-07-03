@@ -1,0 +1,1 @@
+Fig. 3 The end effector plate workspace of the HapticMaster spans a 3-dimensional space with a volume of approximately 80 liters. The end plate of the robot arm allows the mounting of different end effectors.

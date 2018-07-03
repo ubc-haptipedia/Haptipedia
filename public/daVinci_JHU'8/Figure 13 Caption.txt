@@ -1,0 +1,1 @@
+Figure 13. Force-deflection response for a prostate model near (left) and on (right) a hard inclusion.

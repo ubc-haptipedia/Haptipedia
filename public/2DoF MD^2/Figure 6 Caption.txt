@@ -1,0 +1,1 @@
+Figure 6: Spring-mass model of joint actuator and driven link inertias (a) Collocated control (b) Non-collocated control.

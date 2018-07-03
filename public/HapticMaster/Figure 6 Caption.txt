@@ -1,0 +1,1 @@
+Fig. 6 The frequency response of the vertical movement of the HapticMaster. The gain is obtained by division of the measured end effector acceleration and the commanded acceleration.

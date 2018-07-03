@@ -1,0 +1,1 @@
+Figure 8. User experiencing a contact force in an OpenGL scene

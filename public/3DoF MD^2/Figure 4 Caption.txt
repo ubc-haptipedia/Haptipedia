@@ -1,0 +1,1 @@
+Figure 4: (a) DM2 actuation control structure and (b) frequency response. G(s)LF: low-frequency actuator closed loop transfer function, G(s)HF: High-frequency actuator transfer function, ?LF: openloop natural frequency of low-frequency actuator, ?LF?closed?loop: closed-loop bandwidth of low-frequency SEA controller

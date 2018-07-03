@@ -1,0 +1,1 @@
+Fig. 5 An example of a virtual haptic world, created with the HapticAPI and visualized with OpenGL. Geometrical primitives like spheres and cubes, and force elements like springs and dampers can be placed into a virtual world.

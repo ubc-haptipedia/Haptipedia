@@ -1,0 +1,1 @@
+Figure 15: End-effector effective friction force as function of endeffector displacement.

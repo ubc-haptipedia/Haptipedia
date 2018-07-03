@@ -1,0 +1,1 @@
+Fig. 2. Bottom view of the MOTORE system highlighting the layout of the components. With respect to the photo, the actual system configuration uses wheels composed by a double row of rollers to avoid hopping during motions.

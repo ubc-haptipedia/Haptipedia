@@ -1,0 +1,1 @@
+Figure 11. Averaged velocity profile for the dead-zone controller

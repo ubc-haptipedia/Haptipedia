@@ -1,0 +1,1 @@
+Figure 2. 3-DOF handle design with its rotated yaw axis to prevent gimbal lock.

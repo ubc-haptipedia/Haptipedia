@@ -1,0 +1,1 @@
+Figure 6. The vision system that displays the force information. (a) a user wears a head-mount display, (b) The image of the environment, overlaid with a bar that changes height and color depending on the level of applied force.

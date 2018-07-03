@@ -1,0 +1,1 @@
+Figure 7. The block diagram of the feed-forward controller of the actuators. The output is saturated to prevent excessive commands that might otherwise damage the system. The inverse model calculates the required voltage for the desired force/torque, which is used as a feedforward term.

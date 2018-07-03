@@ -1,0 +1,1 @@
+Figure 11. Sample mazes of different complexity. The game engine can recognize any black & white image. The mazes can be generated in any graphics editing software.

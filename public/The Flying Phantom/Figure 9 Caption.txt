@@ -1,0 +1,1 @@
+Figure 9. Averaged velocity profile for a target acquisition task using the PD controller

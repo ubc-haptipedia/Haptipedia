@@ -1,0 +1,1 @@
+Figure 5. Impedance response of the low mass and coupled mass systems. m1=1Kg, m2=15Kg, b1=1.5N-s/m, b2=10N-s/m and

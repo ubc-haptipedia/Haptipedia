@@ -1,0 +1,1 @@
+Figure 10. Accuracy of finding the correct nodule location in the heart model. Data is averaged over all seven subjects, and standard error bars are shown.

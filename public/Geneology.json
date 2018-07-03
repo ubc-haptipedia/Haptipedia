@@ -1,0 +1,9 @@
+{"name": "design and multiobjective optimization of a linkage for a haptic interface",
+      "children": [
+        {"name": "penbased force display for precision manipulation in virtual environments",
+          "children": [
+            {"name": "haptic interface for handson instruction in system dynamics and embedded control",
+              "children": [
+                {"name": "physical studentrobot interaction with the ethz haptic paddle",
+                  "children": [{"name": "design and characterization of a haptic paddle for dynamics education"}]},
+                {"name": "design and characterization of a haptic paddle for dynamics education"}]}]}]}

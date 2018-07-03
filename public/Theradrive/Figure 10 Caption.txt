@@ -1,0 +1,1 @@
+Fig. 10. abc. Stroke subject completing two modes: a) zero-impedance mode, b) an adaptive mode and c) s the position-dependent gains changing and adapting over time.

@@ -1,0 +1,1 @@
+Fig. 8. a. Simulated tracking task with Healthy Model and Stroke Model and b. Rendered Stiffness being adapted to healthy subject performance. c. Simulated Healthy patient’s performance before and after gains are being adapted. d. Rendered stiffness adapting to simulated stroke patient over time. More negative values indicate more assistive gains.

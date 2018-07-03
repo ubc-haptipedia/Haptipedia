@@ -1,0 +1,1 @@
+Fig. 9. Maximum force before slipping when the device is set in static condition. The force is expressed in mobile frame.

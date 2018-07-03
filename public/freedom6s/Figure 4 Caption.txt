@@ -1,0 +1,1 @@
+Figure 4: Operator working with a virtual model of a remote robot.

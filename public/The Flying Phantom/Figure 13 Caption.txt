@@ -1,0 +1,1 @@
+Figure 13. Position profile for the dead-zone + velocity feedback controller

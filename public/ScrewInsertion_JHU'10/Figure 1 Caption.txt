@@ -1,0 +1,1 @@
+Figure 1: Three possible phases of orthopaedic screw insertion. During the insertion phase, cutting and friction forces cause some resistance torque. Loading the screw during the tightening phase creates much larger resistance torques. During and after thread damage in the stripping phase, the magnitude of the resistance torques decreases dramatically.

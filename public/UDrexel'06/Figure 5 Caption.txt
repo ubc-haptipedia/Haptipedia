@@ -1,0 +1,1 @@
+Figure 5: Workspace of the user interface in the global coordinate frame.

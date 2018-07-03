@@ -1,0 +1,1 @@
+Figure 16. Several possible configurations for the haptic feeling. The size and color of the arrows represent the magnitude of the force, and the direction of the arrows represents the direction of the force. (a) an attracting magnetic field, (b) an extension spring, (c) a balance board, (d) a repelling magnetic field
