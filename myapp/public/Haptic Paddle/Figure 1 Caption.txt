@@ -1,0 +1,1 @@
+Figure 1: Rice Friction Drive Paddle, servo amplifier, NI myRIO, and analog signal conditioning circuit

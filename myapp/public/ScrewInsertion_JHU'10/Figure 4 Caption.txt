@@ -1,0 +1,1 @@
+Figure 4: Apparatus for orthopaedic screw insertion simulation. (a) The haptic device and controller. (b) A user interacts with the device through a orthopaedic screwdriver.

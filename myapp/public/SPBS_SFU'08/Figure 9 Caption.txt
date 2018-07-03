@@ -1,0 +1,1 @@
+Figure 9. An example scenario of desired torque at the endeffector and and the computed torques at the actuators

@@ -1,0 +1,1 @@
+Figure 11: Another snapshot of a demonstration using a standard sample (Program: cube)

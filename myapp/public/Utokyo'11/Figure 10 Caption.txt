@@ -1,0 +1,1 @@
+Figure 10: Snapshot of a demonstration of our device using a standard sample program (Program: pool)

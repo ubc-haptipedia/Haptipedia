@@ -1,0 +1,1 @@
+Figure 1. The Brake Actuated Manipulator (BAM) shown with its Cartesian and spherical coordinate system orientations. The BAM has 2m workspace sufficient for whole limb/body interactions.

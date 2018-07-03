@@ -1,0 +1,1 @@
+Figure 2. Comparison of Impedance response of the low mass (m1=1Kg) and high mass system (m1=10Kg). For both systems b1=1.5N-s/m and K1=0.5N/m in open loop and 5.0N/m in

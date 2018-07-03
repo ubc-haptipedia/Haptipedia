@@ -1,0 +1,1 @@
+Figure 2. The proportional tracking controllers connect the tips of the slave manipulator to the master manipulator. Local controllers cancel friction and inertia of the manipulators.

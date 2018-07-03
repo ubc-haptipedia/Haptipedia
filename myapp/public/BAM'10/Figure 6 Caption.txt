@@ -1,0 +1,1 @@
+Fig 6. Limit cycles at the limits of the BAM's workspace, = 1.25 , large interaction forces are commanded. Here a Cartesian viscosity of 135Ns/m is attempted and damped oscillations result.

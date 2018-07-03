@@ -1,0 +1,1 @@
+Figure 11. Accuracy of finding the correct nodule location in the prostate model. Data is averaged over all seven subjects, and standard error bars are shown.

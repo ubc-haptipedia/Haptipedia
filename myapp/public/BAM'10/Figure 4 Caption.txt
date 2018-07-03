@@ -1,0 +1,1 @@
+Figure 4. Plots comparing the linearity of virtual viscosity for the revolute and linear axes with and without interaction control. Cartesian damping was set to 44Ns/m with r=0.76m for trials with the pitch axis.

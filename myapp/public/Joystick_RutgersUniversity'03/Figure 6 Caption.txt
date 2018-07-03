@@ -1,0 +1,1 @@
+Figure 6. Torque vs. Voltage for Various Gap Widths for CC ERF Actuator

@@ -1,0 +1,1 @@
+Fig. 5. Block diagram of the control algorithm. The architecture is based on several nested loops and two open loop compensations. Pole separation among these feedback components ensures overall stability. In addition, the localization algorithm updates have been optimized to minimize the force changes when the drift is recovered.

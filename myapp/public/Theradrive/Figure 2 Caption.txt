@@ -1,0 +1,1 @@
+Fig. 2. Haptic TheraDrive uses custom force-feedback crank and fits into the TheraDrive frame to allow use of the crank in front drive or side drive configurations.

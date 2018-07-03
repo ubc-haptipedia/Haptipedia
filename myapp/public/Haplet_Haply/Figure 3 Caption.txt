@@ -1,0 +1,1 @@
+Fig. 3. The Haplet’s mechanical design entails some provisions to avoid approaching singularities and undesirable regions in the workspace of the five-bar linkage.

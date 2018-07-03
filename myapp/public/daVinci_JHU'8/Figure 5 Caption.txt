@@ -1,0 +1,1 @@
+Figure 5. Force-displacement curves during stretching of a rubber for several cycles when friction and inertia of the slave manipulator are compensated. The master force shows the force of the teleoperator when inertia is compensated.

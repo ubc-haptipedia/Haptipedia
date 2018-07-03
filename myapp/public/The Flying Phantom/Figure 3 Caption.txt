@@ -1,0 +1,1 @@
+Figure 3. Coupled haptic interface as a mass-spring-damper. K1 is implemented as a controller gain and f2 = k2*(x1-x2).

@@ -1,0 +1,1 @@
+Figure 8: Overview of our implementation of CHAI 3D and the haptic device

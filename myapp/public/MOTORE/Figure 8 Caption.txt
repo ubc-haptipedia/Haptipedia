@@ -1,0 +1,1 @@
+Fig. 8. Relative position estimation error Es (eq. (8)) of the odometry against the optical sensor at different speeds of motion and loaded weights.

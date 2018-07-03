@@ -1,0 +1,1 @@
+Fig. 12. Force display result (in point 1, upper X axis, middle: Y axis, lower: Z axis)

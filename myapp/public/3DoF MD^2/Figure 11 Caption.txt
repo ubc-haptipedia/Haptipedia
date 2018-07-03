@@ -1,0 +1,1 @@
+Figure 11: Maximum achievable virtual wall stiffness - measured end-effector force and displacement.

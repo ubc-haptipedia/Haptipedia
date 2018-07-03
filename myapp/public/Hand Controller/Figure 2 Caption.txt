@@ -1,0 +1,1 @@
+Figure 2. Kinematic diagram of parallel-link mechanism providing three planar degrees of freedom (x,y,@).

@@ -1,0 +1,1 @@
+Figure 12. The game engine uses a 1-bit pixel map to define the maze. The pixel map is used in generating the 3-D graphics, and computing collision detection.

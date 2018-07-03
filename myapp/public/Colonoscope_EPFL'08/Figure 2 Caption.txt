@@ -1,0 +1,1 @@
+Figure 2: Mechanical design of the haptic interface:(1) Colonoscope, (2) Guidance, (3) Friction rollers, (4) Gears, (5) Motor, (6) Rotational brake, (7) Slip-ring, (8) Linear brake, (9) Cylinders, (10) Linear rails

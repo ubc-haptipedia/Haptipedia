@@ -1,0 +1,1 @@
+Figure 7. Position and force errors in COP and force measurement using the load cells (the units in the posit ion errors are pixels) .

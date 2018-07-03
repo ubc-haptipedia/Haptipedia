@@ -1,0 +1,1 @@
+Figure 8. A prostate model that contains a nodule. (a) The prostate "tissue" is shown from the underside, which is mated with the fuse-deposition-manufactured base and nodule. (b) The view of the prostate model seen by the user.

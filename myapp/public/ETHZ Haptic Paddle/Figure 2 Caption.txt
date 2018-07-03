@@ -1,0 +1,1 @@
+Fig. 2. Schematic of the linear current amplifier for the derivation of the transfer function, adapted from [35].

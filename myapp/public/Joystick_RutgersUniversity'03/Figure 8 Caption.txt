@@ -1,0 +1,1 @@
+Figure 8. Torque vs. Voltage for Various Gap Width Designs for FP ERF Actuator

@@ -1,0 +1,1 @@
+Figure 5: Bode plot of experimental data and fitted transfer function for Capstan Drive Paddle

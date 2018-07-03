@@ -1,0 +1,1 @@
+Figure 9: Z-Width plot in linear units, assuming unity transmission efficiency

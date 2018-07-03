@@ -1,0 +1,1 @@
+Figure 8: Variation of peaking amplitude for collocated and noncollocated position control for varying motor/load inertia ratios, I j/Ia

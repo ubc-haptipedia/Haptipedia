@@ -1,0 +1,1 @@
+Figure 5: Control diagram for the simulator.

@@ -1,0 +1,1 @@
+Figure 3. Schematic of interaction controller. Note, input from virtual environment is chosen to satisfy _\? ? _\c ? 0. Section (A) denotes the PI force controller with feed forward force signal and back information propagation. Block (B) is the plant including system friction, and (C) is the friction compensation sub-system.

@@ -1,0 +1,1 @@
+Figure 6: Comparison of measured torque profiles of the haptic simulator and real bone [8] for (a) osteoporotic bone, single cortical wall and (b) normal bone, single cortical wall.

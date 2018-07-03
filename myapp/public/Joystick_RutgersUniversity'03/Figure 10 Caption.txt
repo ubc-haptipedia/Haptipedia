@@ -1,0 +1,1 @@
+Figure 10. Static Torque vs. Voltage for CC Actuator w/ 0.50 mm Gap

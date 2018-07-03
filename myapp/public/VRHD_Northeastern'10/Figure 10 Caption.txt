@@ -1,0 +1,1 @@
+Figure 10. Screen Capture of the advanced maze created with Panda3D game engine. In-maze objects are placed by practitioner data and a randomizing algorithm.
