@@ -1,6 +1,6 @@
 
 
-
+document.addEventListener("DOMContentLoaded", function(event) {
 
 
 
@@ -449,4 +449,4 @@ var mouseX;
 	});
 
 
-
+}
