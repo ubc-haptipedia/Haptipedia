@@ -277,7 +277,7 @@ $('.data').on("click", function(e){
 		console.log(url)
 		var params = url.split('/');
 		console.log('params= ' + params);
-		var url = 'http://' + params[2] + '/'
+		var url = 'https://' + params[2] + '/'
 		console.log('url = ' + url);
 		/*var folder = params[1]
 		console.log('folder= ' + folder);
@@ -334,7 +334,7 @@ $('.data').on("click", function(e){
 
 d3.select('#reset').on('click', function(){
 
-	window.location.assign("http://localhost:3000/");
+	window.location.assign("https://haptipedia.herokuapp.com/");
 	
 	
 });
