@@ -9,7 +9,7 @@ var storeClickArrayCount = [];
 var flag = 0;
 var storeClick = 0;
 var tempDevice;
-$('.data').eq(1).on("click", function(e){
+d3.selectAll('.data').on("click", function(e){
 	if(e.metaKey || e.ctrlKey){
 		
 		var clickData = [];
