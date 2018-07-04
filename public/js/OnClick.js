@@ -9,7 +9,7 @@ var storeClickArrayCount = [];
 var flag = 0;
 var storeClick = 0;
 var tempDevice;
-$('.point2').on("click", function(e){
+$('.data').eq(1).on("click", function(e){
 	if(e.metaKey || e.ctrlKey){
 		
 		var clickData = [];
