@@ -107,7 +107,7 @@ app.get('/readmetadata/:deviceid', function (req, res) {
 // app.get('/readfigures/:deviceid',(req,res) => var files = fs.readdirSync('/public/'+req.params.deviceid); res.send(files))
 
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(process.env.PORT || 5000)
 
 
 
