@@ -186,7 +186,7 @@
 			hoverBox1.style("visibility", "visible");
 			cardText1.html("<p><b> Year: </b>" + d.Year + "<br>" + "<b> Venue: </b>" + d.Venue + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle1.html(d.Device);
-			cardImage1.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage1.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -350,7 +350,7 @@
 					hoverBox2.style("visibility", "visible");
 					cardText2.html("<p><b> Year: </b>" + d.Year + "<br>" + "<b> Venue: </b>" + d.Venue + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 					cardTitle2.html(d.Device);
-					cardImage2.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+					cardImage2.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 

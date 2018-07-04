@@ -181,7 +181,7 @@
 			hoverBox3.style("visibility", "visible");
 			cardText3.html("<p><b> Num of Motors: </b>" + d.NumMotors + "<br>" + "<b> Num of Links: </b>" + d.NumLinks + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle3.html(d.Device);
-			cardImage3.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage3.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -334,7 +334,7 @@
 			hoverBox4.style("visibility", "visible");
 			cardText4.html("<p><b> Peak Force: </b>" + d.PeakForceNewton + "<br>" + "<b> Workspace Classification: </b>" + d['Workspace Classification'] + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle4.html(d.Device);
-			cardImage4.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage4.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 

@@ -358,7 +358,7 @@
 			hoverBox71.style("visibility", "visible");
 			cardText71.html("<p><b> Portability: </b>" + d.Portability + "<br>" + "<b> Robustness </b>" + d.Robustness + "<br>" + "<b> Fabricability: </b>" + d.Fabricability + "<br>" + "<b> Obtainability: </b>" + d.Obtainability + "<br>" + "<b> Repairability: </b>" + d.Repairability + "</p>");
 			cardTitle71.html(d.Device);
-			cardImage71.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage71.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -505,7 +505,7 @@
 			hoverBox72.style("visibility", "visible");
 			cardText72.html("<p><b> Portability: </b>" + d.Portability + "<br>" + "<b> Robustness </b>" + d.Robustness + "<br>" + "<b> Fabricability: </b>" + d.Fabricability + "<br>" + "<b> Obtainability: </b>" + d.Obtainability + "<br>" + "<b> Repairability: </b>" + d.Repairability + "</p>");
 			cardTitle72.html(d.Device);
-			cardImage72.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage72.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -642,7 +642,7 @@
 			hoverBox73.style("visibility", "visible");
 			cardText73.html("<p><b> Portability: </b>" + d.Portability + "<br>" + "<b> Robustness </b>" + d.Robustness + "<br>" + "<b> Fabricability: </b>" + d.Fabricability + "<br>" + "<b> Obtainability: </b>" + d.Obtainability + "<br>" + "<b> Repairability: </b>" + d.Repairability + "</p>");
 			cardTitle73.html(d.Device);
-			cardImage73.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage73.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -780,7 +780,7 @@
 			hoverBox74.style("visibility", "visible");
 			cardText74.html("<p><b> Portability: </b>" + d.Portability + "<br>" + "<b> Robustness </b>" + d.Robustness + "<br>" + "<b> Fabricability: </b>" + d.Fabricability + "<br>" + "<b> Obtainability: </b>" + d.Obtainability + "<br>" + "<b> Repairability: </b>" + d.Repairability + "</p>");
 			cardTitle74.html(d.Device);
-			cardImage74.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage74.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -919,7 +919,7 @@
 			hoverBox75.style("visibility", "visible");
 			cardText75.html("<p><b> Portability: </b>" + d.Portability + "<br>" + "<b> Robustness </b>" + d.Robustness + "<br>" + "<b> Fabricability: </b>" + d.Fabricability + "<br>" + "<b> Obtainability: </b>" + d.Obtainability + "<br>" + "<b> Repairability: </b>" + d.Repairability + "</p>");
 			cardTitle75.html(d.Device);
-			cardImage75.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage75.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -1051,7 +1051,7 @@
 				hoverBox81.style("visibility", "visible");
 				cardText81.html("<p><b> Year: </b>" + d.Year + "<br>" + "<b> Venue: </b>" + d.Venue + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 				cardTitle81.html(d.Device);
-				cardImage81.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+				cardImage81.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -1206,7 +1206,7 @@
 				hoverBox82.style("visibility", "visible");
 				cardText82.html("<p><b> Year: </b>" + d.Year + "<br>" + "<b> Venue: </b>" + d.Venue + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 				cardTitle82.html(d.Device);
-				cardImage82.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+				cardImage82.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -1361,7 +1361,7 @@
 				hoverBox83.style("visibility", "visible");
 				cardText83.html("<p><b> Year: </b>" + d.Year + "<br>" + "<b> Venue: </b>" + d.Venue + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 				cardTitle83.html(d.Device);
-				cardImage83.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+				cardImage83.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -1516,7 +1516,7 @@
 				hoverBox84.style("visibility", "visible");
 				cardText84.html("<p><b> Year: </b>" + d.Year + "<br>" + "<b> Venue: </b>" + d.Venue + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 				cardTitle84.html(d.Device);
-				cardImage84.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+				cardImage84.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -1671,7 +1671,7 @@
 				hoverBox85.style("visibility", "visible");
 				cardText85.html("<p><b> Year: </b>" + d.Year + "<br>" + "<b> Venue: </b>" + d.Venue + "<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 				cardTitle85.html(d.Device);
-				cardImage85.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+				cardImage85.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 

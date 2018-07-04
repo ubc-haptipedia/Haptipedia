@@ -447,7 +447,7 @@
 			hoverBox61.style("visibility", "visible");
 			cardText61.html("<p><b> D1: </b>" + d.D1 + "cm<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle61.html(d.Device);
-			cardImage61.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage61.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -596,7 +596,7 @@
 			hoverBox62.style("visibility", "visible");
 			cardText62.html("<p><b> D2: </b>" + d.D2 + "cm<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle62.html(d.Device);
-			cardImage62.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage62.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -745,7 +745,7 @@
 			hoverBox63.style("visibility", "visible");
 			cardText63.html("<p><b> D3: </b>" + d.D3 + "cm<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle63.html(d.Device);
-			cardImage63.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage63.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -894,7 +894,7 @@
 			hoverBox64.style("visibility", "visible");
 			cardText64.html("<p><b> D4: </b>" + d.D4 + "deg<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle64.html(d.Device);
-			cardImage64.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage64.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -1046,7 +1046,7 @@
 			hoverBox65.style("visibility", "visible");
 			cardText65.html("<p><b> D5: </b>" + d.D5 + "deg<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle65.html(d.Device);
-			cardImage65.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage65.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
@@ -1198,7 +1198,7 @@
 			hoverBox66.style("visibility", "visible");
 			cardText66.html("<p><b> D6: </b>" + d.D6 + "deg<br>" + "<b> DoF: </b>" + d.NumberOfDoF + "</p>");
 			cardTitle66.html(d.Device);
-			cardImage66.html('<img class="card-image-tag" src="http://localhost:3000/' + d.Device + '/Figure1-1.png">')
+			cardImage66.html('<img class="card-image-tag" src="https://haptipedia.herokuapp.com/' + d.Device + '/Figure1-1.png">')
 
 
 
