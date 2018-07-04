@@ -1,6 +1,6 @@
 
 
-window.onload = function(){
+
 
 
 
@@ -449,4 +449,4 @@ var mouseX;
 	});
 
 
-}
+
